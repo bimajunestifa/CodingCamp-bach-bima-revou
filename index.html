@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Bima Junestifa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="#about">Tentang Saya</a></li>
+      <li><a href="#skills">Keahlian</a></li>
+      <li><a href="#portfolio">Portofolio</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <img src="img/foto.jpg.jpeg" alt="Photo of Bima Junestifa" class="profile-pic">
+    <h1>Hello, I'm <span style="color:#0077cc">Bima Junestifa</span> 👋</h1>
+    <p>Web Developer | Backend Enthusiast</p>
+    <p>Welcome, <span id="username">Visitor</span>!</p>
+    <a href="#portfolio" class="btn">View My Projects</a>
+</section>
+
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>Tentang Saya</h2>
+    <p>
+      Saya seorang <b>Web Developer</b> yang fokus pada pengembangan aplikasi berbasis
+      <b>PHP & Laravel</b>, serta membangun website modern dengan <b>HTML, CSS, dan JavaScript</b>
+      Saya senang belajar teknologi baru dan mengembangkan solusi kreatif yang bermanfaat.
+    </p>
+    <a href="profil.html" class="btn">Baca Selengkapnya</a>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2>Keahlian</h2>
+    <div class="skills-grid">
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>PHP</div>
+      <div>Laravel</div>
+      <div>MySQL</div>
+      <div>React</div>
+      <div>Git & GitHub</div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2>Portofolio</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>Sistem Manajemen Toko Buah</h3>
+        <p>Aplikasi web dengan fitur CRUD, generator barcode, transaksi, dan laporan penjualan otomatis berbasis Laravel.</p>
+      </div>
+      <div class="project-card">
+        <h3>Website Portofolio Pribadi</h3>
+        <p>Website responsif dengan desain modern, menampilkan profil, keterampilan, dan form kontak interaktif.</p>
+      </div>
+      <div class="project-card">
+        <h3>Mini Game JavaScript</h3>
+        <p>Game sederhana berbasis web dengan leaderboard dan fitur penyimpanan skor menggunakan LocalStorage.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Hubungi Saya</h2>
+
+    <!-- Contact Form -->
+    <form id="messageForm">
+      <div style="max-width: 600px; margin: 0 auto; text-align: left;">
+        <label for="name">Nama</label>
+        <input type="text" id="name" name="name" style="width: 100%; padding: 10px; margin: 8px 0;" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" style="width: 100%; padding: 10px; margin: 8px 0;" required>
+
+        <label for="userMessage">Pesan</label>
+        <textarea id="userMessage" name="userMessage" rows="4" style="width: 100%; padding: 10px; margin: 8px 0;" required></textarea>
+
+        <button type="submit" class="btn">Kirim</button>
+      </div>
+    </form>
+
+    <div id="output" style="max-width: 600px; margin: 20px auto; text-align: left;"></div>
+
+    <!-- Social Links -->
+    <div class="social-links">
+      <a href="https://github.com/bimajunestifa" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/teuku-ahmad-rajaka-5081b433a/" target="_blank">LinkedIn</a>
+      <a href="https://instagram.com/bimajunestifa" target="_blank">Instagram</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Dibuat dengan ❤️ oleh Bima Junestifa</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
